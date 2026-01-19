@@ -1,0 +1,11 @@
+%% starter: D/D Lance Soldier (hand or GY)
+%% required: Dark Contract on field (for GY revive) or D/D monster to level-mod; deck/GY setup depending on desired Synchro rank
+%% endboard: Level-fixed Synchro (Clovis/Siegfried) or extra body to reach Gilgamesh/Arc Crisis requirement
+flowchart TD
+  A["Start: D/D Lance Soldier (hand or in GY)"] --> B{Where is Lance Soldier?}
+
+  B -->|In hand/on field| C["Use effect: target 1 D/D monster you control\n-> increase its Level by up to #Dark Contracts (field+GY)"]
+  C --> D["Synchro ladder options\n- Make Clovis (Lv6) / Siegfried (Lv8) / other lines"]
+
+  B -->|In GY| E["Lance Soldier GY effect: target 1 Dark Contract you control\n-> destroy it -> Special Summon Lance Soldier\n(banish when leaves field)"]
+  E --> F["Use as extender:\n- Make Gilgamesh\n- Make Synchro with correct levels\n- Provide extra material for Arc Crisis requirement"]

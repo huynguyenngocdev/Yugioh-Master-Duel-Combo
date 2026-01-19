@@ -1,0 +1,11 @@
+%% starter: Dark Contract with the Zero King (hand/field)
+%% required: Another D/D card to destroy; Deck access to D/D Savant Kepler or D/D Savant Copernicus (or preferred D/D body)
+%% endboard: Flexible bridge into Gilgamesh or chosen D/D line after pulling a D/D from Deck
+flowchart TD
+  A["Start: Dark Contract with the Zero King (hand/field)"] --> B["Activate/Have Zero King face-up"]
+  B --> C["You must control 1 other 'D/D' card to destroy\n(monster or pendulum scale)"]
+  C --> D["Zero King effect: destroy that D/D card\n-> SS 1 D/D from Deck\n-> lock: only Special Summon D/D this turn"]
+  D --> E{Pick what you need}
+  E -->|Consistency| F["SS: D/D Savant Kepler\n-> Kepler adds a Dark Contract you need"]
+  E -->|GY setup| G["SS: D/D Savant Copernicus\n-> send key piece to GY (e.g. Lance Soldier target)"]
+  E -->|Defense/OTK| H["SS: your preferred D/D body\n-> continue into Gilgamesh/Zeus/Synchro/Xyz"]
